@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    background-image: url('img/candaditos-naranjas.png'); /* Reemplaza con la ruta correcta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    background-color: rgba(40, 40, 40, 0.9); /* Fondo semi-transparente para mejor contraste */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+h1 {
+    color: #ffa726;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.seccion-entrada, .seccion-salida {
+    margin-top: 20px;
+}
+
+textarea {
+    width: calc(100% - 24px);
+    height: 100px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ffa726;
+    border-radius: 8px;
+    resize: none;
+    outline: none;
+    background-color: #212121;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+textarea:focus {
+    border-color: #ff9800;
+    box-shadow: 0 0 8px rgba(255, 152, 0, 0.8);
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #ffa726;
+    color: #212121;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff9800;
+}
+
+#textoSalida {
+    background-color: #1e1e1e;
+    cursor: not-allowed;
+    color: #f0f0f0;
+    height: 120px;
+}
+
+h2 {
+    color: #ffa726;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.error {
+    color: #ff5722;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
